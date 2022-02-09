@@ -1,0 +1,73 @@
+# a = 'Hello Python'
+# print(a.count('o'))
+# print(a.find('l'))
+# print(a.index('x'))
+# print(','.join(a))
+# print(a.replace('Py','My'))
+# print(a.split())
+# print(a.upper())
+# print(a.lower())
+
+# a = "....app.le...."
+# print('|', a.lstrip('.'), '|', sep="")
+# print('|', a.strip('.'),'|', sep="")
+
+   # while문
+# while 조건문:
+#     실행문1
+#     if 조건문:
+#         contunue
+#     if 조건문:
+#         break
+
+#    for문
+# for 변수 in range(시작, 끝(-1), 조건):
+
+# a = [1,2,3,4]
+# a.append(5) 추가
+# a.extend([5,6]) 확장
+# a.reverse()
+# a.insert(0,6)
+# a.pop(-1)or a.pop()
+# print(a)
+
+# d = {'apple':'사과',"banana":"바나나",3:'삼'}
+# print(d['apple'],d["banana"],d[3])
+
+# 딕셔너리에 key-value 추가, 삭제
+# 추가 d[1]='일' 삭제 del d[1]
+# 딕셔너리에서 없는 값을 찾는다면
+# print(d['x'])
+
+# key = d.keys()
+# value = d.values()
+# item = d.items()
+# print(list(key))
+# print(list(value))
+# print(list(item))
+
+# print('x'in d.keys())
+# print('apple'in d.keys())
+
+# print(bool('python'),bool(''))
+# print(bool([1,2,3]),bool([]))
+# print(bool((1,2)),bool(()))
+# print(bool({'1': 1}),bool({}))
+# print(bool(-3), bool(0))
+# print(bool(None))
+
+# H = int(input())
+# M = int(input())
+# if H == 1 and M < 45:
+#     H += 23
+#     M += 60
+# elif M < 45:
+#     H -=1
+#     M += 60
+# print(H%24, (M-45)%60)
+
+# t = int(input())
+# for i in range(1, t+1):
+#     a = int(input())
+#     b = int(input())
+#     print("Case #",i,a,'+',b,'=',a+b)
